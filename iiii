@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <meta charset=UTF-8> 
+    <meta name=viewport content="width=device-width, initial-scale=1.0"> 
+    <meta name=description content=""> 
+    <meta name=keywords content=""> 
+    <meta name=author content=''>
+    <link rel="shortcut icon" href="./imgs/img.ico">    
+    <link href="css/main.css" rel=stylesheet>
+    <link rel=stylesheet media="screen and (max-width:480px)" href="css/480.css">
+    <link rel=stylesheet media="screen and (min-width:481px) and (max-width:768px)" href="css/768.css">
+    <link rel=stylesheet media="screen and (min-width:769px) and (max-width:1024px)" href="css/1024.css">
+    <link rel=stylesheet media="screen and (min-width:1025px)" href="css/1025.css">
+</head>
+<body style="background-color:#e6e6e6">
+    <nav style="background-color:#343a40;width:100%;height:60px;position:fixed;left:0px;top:0px">
+    <img  id = 'im1'style='height: 40px;width: 40px;'src="./imgs/icone1.png">
+     <h1 id ='t1'>Bazar e Papelaria Eden</h1>
+     <div style="opacity:0.0" id ='menuHamburguer'>
+         <hr><hr><hr>
+     </div>
+    </nav>
+    <input id='barraP' placeholder="Oque esta procurando ">
+    <button id='butp'>
+    Pesquisar
+    </button>
+</body>
+
+</html>

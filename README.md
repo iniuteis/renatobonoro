@@ -1,2 +1,0 @@
-# renatobonoro
-somos lindas 

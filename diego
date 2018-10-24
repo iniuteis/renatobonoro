@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="estilo_grid.css">
+		
+		<link href="estilo_grid_480.css" rel="stylesheet" media="screen and (max-width:480px)">
+        <link href="estilo_grid_768.css" rel="stylesheet" media="screen and (min-width:481px) and (max-width:768px)">
+        <link href="estilo_grid_1024.css" rel="stylesheet" media="screen and (min-width:769px) and (max-width:1024px)">
+        <link href="estilo_grid_1025.css" rel="stylesheet" media="screen and (min-width:1025px)">
+	</head>
+	<body>
+		<article>
+			<header id="cabecalho">
+				<h1 id="titulo">Grid Container</h1>
+			</header>
+			<section>
+				<p>A Grid Container consiste em itens de grade organizados em colunas e linhas</p>
+				
+				<div id="grid_container">
+					<div>1</div>
+					<div>2</div>
+					<div>3</div>
+					<div>4</div>
+					<div>5</div>
+					<div>6</div>
+					<div>7</div>
+					<div>8</div>
+
+				</div>
+				
+				<p>Elementos filho direitos de container de grade automaticamente se tornam itens de grade.</p>
+				
+			</section>
+		</article>
+	</body>
+</html>
